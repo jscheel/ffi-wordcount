@@ -1,0 +1,11 @@
+[package]
+name = "ffi"
+version = "0.1.0"
+authors = ["Jared A. Scheel <jared@jaredscheel.com>"]
+
+[dependencies]
+libc = "0.2"
+
+[lib]
+name = "wordcount"
+crate-type = ["dylib"]
